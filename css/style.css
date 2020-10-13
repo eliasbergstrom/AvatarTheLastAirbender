@@ -1,0 +1,66 @@
+.index{
+  color:white;
+}
+/* Sylar titeln på index sidan */
+.title{
+  font-size: 36px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+/* Bakgrundsbild för index sidan */
+body.index{
+  background-image: url('../images/background_image_avatar.jpg');
+}
+
+/* Bakgrunden till de olika sesongsidorna ska vara en gradient */
+body.water {
+  background-image: linear-gradient(to bottom right, white, rgb(46, 89, 238));
+  background-repeat: no-repeat;
+}
+body.earth {
+  background-image: linear-gradient(to bottom right, white, rgb(15, 170, 45));
+  background-repeat: no-repeat;
+}
+body.fire {
+  background-image: linear-gradient(to bottom right, white, rgb(238, 59, 11));
+}
+
+/* Bilden ska vara liten och till höger */
+img{
+  float: right;
+  width: 20%;
+}
+
+/* Styling för länkarna på index sidan, både före efter och medans man klickar på dem */
+a.IMDB {
+  color: white;
+}
+a.water_link:link {
+  color: rgb(100, 100, 200);
+}
+a.water_link:visited {
+  color: rgb(46, 89, 238);
+}
+a.water_link:hover {
+  color: rgb(46, 89, 238);
+  background-color: white;
+}
+a.earth_link:link {
+  color: rgb(100, 200, 100);
+}
+a.earth_link:visited {
+  color: rgb(15, 170, 45);
+}
+a.earth_link:hover {
+  color: rgb(15, 170, 45);
+  background-color: white;
+}
+a.fire_link:link {
+  color: rgb(200, 100, 100);
+}
+a.fire_link:visited {
+  color: rgb(238, 59, 11);
+}
+a.fire_link:hover {
+  color: rgb(238, 59, 11);
+  background-color: white;
+}
